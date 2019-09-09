@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body{
+  margin:0;
+  font-family: Roboto,sans-serif;
+  background-color: #e6e6e6;
+}
+/*menu*/
+h1 {
+  margin-left: 50px;
+}
+
+.menu span {
+  padding-left: 200px;
+}
+
+/*header*/
+
+.header{
+  margin-top: -70px;
+  background: url('assets/bg.png');
+  background-color: white;
+  height: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+/*sidebar*/
+
+.sidebar{
+  float: left;
+  height: 450px;
+  width: 20%;
+}
+
+.sidebar span{
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  display: block;
+  margin-left: 30px;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.sidebar ul{
+  width: 100%;
+  background-color: white;
+  height: 1000px;
+}
+
+.sidebar ul li{
+  list-style: none;
+  width: 100%;
+
+}
+
+.sidebar ul li a,.sidebar ul li a:hover{
+  display: block;
+  text-decoration: none;
+  margin-left: 40px; 
+  color: #555;
+}
+.sidebar ul li a{
+  /*background-color: black;*/
+  padding: 10px;
+}
+
+.sidebar ul li a:hover{
+  color: black;
+  font-weight: bold;
+
+}
+
+
+
+/*contain*/
+
+.contain{
+  width: 80%;
+  min-height: 1000px;  
+  float: right;
+  margin-top:35px;
+  background-color: white;
+  color: #555;
+}
+
+.contain .contain-judul{
+  padding: 30px;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #555;
+  display: block;
+}
+
+.contain span{
+  padding: 30px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #555;
+  display: block;
+}
+
+.contain ul{
+  padding-left: 60px; 
+}
+
+.contain p {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+
+
+/*footer*/
+
+.footer{
+  clear: both;
+  height: 20px;
+  background-color: white;
+}
+
+.footer-bawah{
+  position: relative;
+  background-color: black;
+  display: block;
+  color: white;
+  clear: both;
+  height: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
